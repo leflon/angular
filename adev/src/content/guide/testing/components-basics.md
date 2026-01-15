@@ -139,7 +139,7 @@ describe('Banner (with beforeEach)', () => {
 });
 ```
 
-HELPFUL: By awaiting the initial rendering in the `beforeEach` with `await fixture.whenStable` the single tests synchronous.
+HELPFUL: Awaiting the initial rendering in the `beforeEach` with `await fixture.whenStable` makes the single tests synchronous.
 
 Now add a test that gets the component's element from `fixture.nativeElement` and looks for the expected text.
 
